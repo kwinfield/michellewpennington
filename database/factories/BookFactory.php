@@ -23,10 +23,10 @@ class BookFactory extends Factory
     public function definition()
     {
         return [
-            'name' => $this->faker->name,
+            'name' => 'Evolve - From Heart Breaks to Hearts Healed',
             'image' => 'img/book.photo.1.png',
             'price' => '24.99',
-            'description' => $this->faker->paragraph(4), // password
+            'description' => 'A compilation of stories inspired by The First Wives Club'
             'completed' => false,
         ];
     }
