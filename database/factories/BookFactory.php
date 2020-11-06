@@ -26,7 +26,7 @@ class BookFactory extends Factory
             'name' => 'Evolve - From Heart Breaks to Hearts Healed',
             'image' => 'img/book.photo.1.png',
             'price' => '24.99',
-            'description' => 'A compilation of stories inspired by The First Wives Club'
+            'description' => 'A compilation of stories inspired by The First Wives Club',
             'completed' => false,
         ];
     }
